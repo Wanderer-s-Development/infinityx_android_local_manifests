@@ -24,4 +24,7 @@
 
     <remove-project name="vendor_infinity" />
     <project path="vendor/infinity" name="infinityx_vendor_infinity" remote="wanderer-dev" revision="17-breeze" />
+
+    <remove-project name="packages_apps_WallpaperPicker2" />
+    <project path="packages/apps/WallpaperPicker2" name="infinityx_packages_apps_WallpaperPicker2" remote="wanderer-dev" revision="17-breeze" />
 </manifest>
