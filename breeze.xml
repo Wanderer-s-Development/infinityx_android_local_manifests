@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="wanderer-dev" fetch="ssh://git@github.com/Wanderer-s-Development" />
+    <remote name="wanderer-dev" fetch="https://github.com/Wanderer-s-Development" />
+    <remote name="wanderer-priv" fetch="ssh://git@github.com/Wanderer-s-Development" />
 
     <!-- Private Release Signing Keys (Wanderer) -->
-    <project path="vendor/infinity-priv/keys" name="infinityx_vendor_infinity_keys" remote="wanderer-dev" revision="main" />
+    <project path="vendor/infinity-priv/keys" name="infinityx_vendor_infinity_keys" remote="wanderer-priv" revision="main" />
 
     <!-- Xiaomi breeze Device, Kernel, Vendor and Hardware HALs -->
     <project path="device/xiaomi/breeze" name="infinityx_device_xiaomi_breeze" remote="wanderer-dev" revision="lineage-23.2" />
