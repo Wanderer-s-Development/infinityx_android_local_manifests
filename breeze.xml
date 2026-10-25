@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="wanderer-dev" fetch="https://github.com/Wanderer-s-Development" />
+    <remote name="wanderer-dev" fetch="ssh://git@github.com/Wanderer-s-Development" />
 
     <!-- Private Release Signing Keys (Wanderer) -->
     <project path="vendor/infinity-priv/keys" name="infinityx_vendor_infinity_keys" remote="wanderer-dev" revision="main" />
