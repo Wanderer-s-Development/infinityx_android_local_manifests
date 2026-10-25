@@ -6,6 +6,6 @@ This repository provides the local manifest (`breeze.xml`) for building **Projec
 Clone this repository directly into `.repo/local_manifests` of your Infinity-X source tree:
 
 ```bash
-git clone https://github.com/nithishlabs08/android_local_manifests.git .repo/local_manifests
+git clone https://github.com/Wanderer-s-Development/infinityx_android_local_manifests.git .repo/local_manifests
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune -j$(nproc)
 ```
