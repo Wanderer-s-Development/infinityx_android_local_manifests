@@ -14,14 +14,14 @@
 
     <!-- Custom Forks overriding Upstream ProjectInfinity-X Repositories -->
     <remove-project name="packages_apps_Updater" />
-    <project path="packages/apps/Updater" name="infinityx_packages_apps_Updater" remote="wanderer-dev" revision="lineage-24.0" />
+    <project path="packages/apps/Updater" name="infinityx_packages_apps_Updater" remote="wanderer-dev" revision="lineage-24.0-breeze" />
 
     <remove-project name="packages_apps_InfinitySuite" />
-    <project path="packages/apps/InfinitySuite" name="infinityx_packages_apps_InfinitySuite" remote="wanderer-dev" revision="17" />
+    <project path="packages/apps/InfinitySuite" name="infinityx_packages_apps_InfinitySuite" remote="wanderer-dev" revision="17-breeze" />
 
     <remove-project name="packages_apps_Settings" />
-    <project path="packages/apps/Settings" name="infinityx_packages_apps_Settings" remote="wanderer-dev" revision="17" />
+    <project path="packages/apps/Settings" name="infinityx_packages_apps_Settings" remote="wanderer-dev" revision="17-breeze" />
 
     <remove-project name="vendor_infinity" />
-    <project path="vendor/infinity" name="infinityx_vendor_infinity" remote="wanderer-dev" revision="17" />
+    <project path="vendor/infinity" name="infinityx_vendor_infinity" remote="wanderer-dev" revision="17-breeze" />
 </manifest>
