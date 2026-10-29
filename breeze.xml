@@ -27,4 +27,13 @@
 
     <remove-project name="packages_apps_WallpaperPicker2" />
     <project path="packages/apps/WallpaperPicker2" name="infinityx_packages_apps_WallpaperPicker2" remote="wanderer-dev" revision="17-breeze" />
+
+    <remove-project name="device_infinity_sepolicy" />
+    <project path="device/lineage/sepolicy" name="infinityx_device_lineage_sepolicy" remote="wanderer-dev" revision="17" />
+
+    <remove-project name="system_update_engine" />
+    <project path="system/update_engine" name="infinityx_system_update_engine" remote="wanderer-dev" revision="17" />
+
+    <remove-project name="frameworks_base" />
+    <project path="frameworks/base" name="infinityx_frameworks_base" remote="wanderer-dev" revision="17" />
 </manifest>
