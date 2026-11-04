@@ -41,10 +41,6 @@
     <remove-project name="packages_apps_OmniStyle" />
     <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="wanderer-dev" revision="17-breeze" />
 
-    <!-- Lunaris Dialer -->
-    <remove-project name="packages_apps_Dialer" />
-    <project path="packages/apps/Dialer" name="Lunaris-AOSP/packages_apps_Dialer" remote="github" revision="16.2" />
-
     <!-- GApps: MindTheGapps-CoreEdition (Wanderer) -->
     <remove-project name="tejas101k/proprietary_vendor_pixel_gms" />
     <remove-project name="tejas101k/proprietary_vendor_pixel_themepicker" />
