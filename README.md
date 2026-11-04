@@ -150,7 +150,7 @@ flowchart TD
 | :--- | :--- | :--- |
 | `vendor/infinity-priv/keys` | [`infinityx_vendor_infinity_keys`](https://github.com/Wanderer-s-Development/infinityx_vendor_infinity_keys) | 🔒 Private release signing keys |
 | `device/xiaomi/breeze` | [`infinityx_device_xiaomi_breeze`](https://github.com/Wanderer-s-Development/infinityx_device_xiaomi_breeze) | Device tree (assertions, lunch, props) |
-| `device/xiaomi/breeze-kernel` | `Niyush-04/device_xiaomi_breeze-kernel` | Prebuilt kernel & vendor ramdisk |
+| `device/xiaomi/breeze-kernel` | `Wanderer-s-Development/infinityx_device_xiaomi_breeze-kernel` | Prebuilt kernel & vendor ramdisk |
 | `vendor/xiaomi/breeze` | `Niyush-04/vendor_xiaomi_breeze` | Proprietary vendor blobs |
 | `hardware/xiaomi` | `LineageOS/android_hardware_xiaomi` | Lineage Xiaomi hardware interfaces |
 | `packages/apps/Updater` | [`infinityx_packages_apps_Updater`](https://github.com/Wanderer-s-Development/infinityx_packages_apps_Updater) | 1MB streaming buffer, local ZIP import |
