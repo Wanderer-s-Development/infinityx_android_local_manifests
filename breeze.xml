@@ -38,8 +38,6 @@
     <remove-project name="frameworks_base" />
     <project path="frameworks/base" name="infinityx_frameworks_base" remote="wanderer-dev" revision="17-breeze" />
 
-    <remove-project name="packages_apps_OmniStyle" />
-    <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="wanderer-dev" revision="17-breeze" />
 
     <!-- GApps: MindTheGapps-CoreEdition (Wanderer) -->
     <remove-project name="tejas101k/proprietary_vendor_pixel_gms" />
