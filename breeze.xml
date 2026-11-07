@@ -12,10 +12,4 @@
     <project path="vendor/xiaomi/breeze" name="infinityx_vendor_xiaomi_breeze" remote="wanderer-dev" revision="lineage-23.2" />
     <project path="vendor/xiaomi/breeze-camera" name="xiaomi_breeze_camera" remote="wanderer-dev" revision="main" />
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-24.0" />
-
-    <!-- GApps: MindTheGapps-CoreEdition (Wanderer) -->
-    <remove-project name="tejas101k/proprietary_vendor_pixel_gms" />
-    <remove-project name="tejas101k/proprietary_vendor_pixel_themepicker" />
-    <remove-project name="tejas101k/proprietary_vendor_pixel_sounds" />
-    <project path="vendor/gapps" name="MindTheGapps-CoreEdition" remote="wanderer-dev" revision="cinnamonbun" />
 </manifest>
